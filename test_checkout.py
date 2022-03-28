@@ -7,11 +7,7 @@ def setUp():
     print("logged out")
     print("closed amazon app")
 
-def test_AddItemtoCart(setUp):
-    print("added successfully")
-
-def test_RemoveItemfromCart(setUp):
-    print("remove successfully")
 
 
-
+def test_checkout(setUp):
+    print("payment successful")
